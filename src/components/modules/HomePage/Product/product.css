@@ -1,0 +1,19 @@
+.product{
+    height:300px ;
+    width: 208px;
+    margin-left: 30px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.cardWrap{
+    width:250px !important ;
+}
+
+@media (max-width: 767px) {
+    .product{
+        height:100%  ;
+    }
+    .cardWrap{
+        width:100% ;
+    }
+  }

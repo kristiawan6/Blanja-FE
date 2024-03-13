@@ -1,0 +1,33 @@
+.slick-slide {
+    height: 320px !important;
+    width: 320px;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    box-sizing: border-box;
+  }
+  
+.slick-slide img {
+    max-width: 68%; /* Ensure the image does not exceed its container */
+    max-height: 68%; /* Ensure the image does not exceed its container */
+    border: 2.5px solid white;
+    box-sizing: border-box;
+    margin-left: 70px !important;
+  }
+
+  .slick-track {
+    height: 300px !important; /* Set height to 100px */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+.title{
+    margin-left: 40px;
+}
+
+.title h2 {
+    font-weight: 700;
+}
+
